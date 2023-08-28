@@ -8,11 +8,12 @@
 nav {
   z-index: 1000;   
   position: sticky;
-  margin-bottom: -75px;
+  margin-bottom: -90px;
 }
 
 .animal {
   margin-left: 70px;
+  margin-top: 15px; 
   font-family: 'Pacifico', cursive;
   font-family: 'Poppins', sans-serif;
 }
@@ -59,8 +60,4 @@ nav {
 .navbar-scrolled {
   background-color: rgb(22, 22, 22);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-}
-
-#border-hewan {
-  border: 1.2px solid black;;
 }

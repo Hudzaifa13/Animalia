@@ -78,14 +78,14 @@
               <!-- Dropdown menu -->
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="#habitat">Darat</a>
+                  <a class="dropdown-item" href="#darat">Darat</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#habitat">Air</a>
+                  <a class="dropdown-item" href="#air">Air</a>
                 </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#habitat">Darat & Air</a>
+                  <a class="dropdown-item" href="#darat-air">Darat & Air</a>
                 </li>
               </ul>
             </li>
@@ -121,60 +121,49 @@
     <!-- Akhir Jumbotron -->
 
     <!-- Awal Content -->
-    <div class="clearfix mb-8" data-aos="fade-up" data-aos-duration="1000" id="general">
-      <img src="wild_animal.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid rounded" alt="..." >
+    <div class="clearfix mb-8" id="general">
+      <img src="wild_animal.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid rounded" alt="..." data-aos="fade-up-left" data-aos-duration="1000">
     
       <p>
-        <h1><strong>Pengetahuan Umum <span style="color: #ed6436;">Hewan</span></strong></h1>
+        <h1 data-aos="fade-up-right" data-aos-duration="1000"><strong>Pengetahuan Umum <span style="color: #ed6436;">Hewan</span></strong></h1>
       </p>
     
       <p>
-        <h5> Hewan adalah organisme eukariotik multiseluler yang membentuk kerajaan biologi Animalia. Dengan sedikit pengecualian, hewan mengonsumsi bahan organik, menghirup oksigen, dapat bergerak, bereproduksi secara seksual, dan tumbuh dari bola sel yang berongga, blastula, selama fase perkembangan embrio. Hewan juga memiliki berbagai habitatnya tersendiri, salah satunya adalah Darat & Air
+        <h5 data-aos="fade-up-right" data-aos-duration="1000"> Hewan adalah organisme eukariotik multiseluler yang membentuk kerajaan biologi Animalia. Dengan sedikit pengecualian, hewan mengonsumsi bahan organik, menghirup oksigen, dapat bergerak, bereproduksi secara seksual, dan tumbuh dari bola sel yang berongga, blastula, selama fase perkembangan embrio. Hewan juga memiliki berbagai habitatnya tersendiri, salah satunya adalah Darat & Air
         </h5>
       </p>
     </div>
     <!-- Akhir Content -->
 
     <!-- Awal Habitat -->
-    <div class="container" id="habitat">
-      <div class="row col-md-11 mx-auto text-center justify-content-center">
-        <!-- darat -->
-        <div class="mid banner mt-5" class="parallax-window" data-parallax="scroll" data-image-src="https://images.unsplash.com/photo-1563996554-52b4fcdf9120?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
-          <div class="container col-lg-6 text-white mt-5">
-            <h5 class="card-title fw-bold"><span style="color: #ed6436;">Darat</span></h5>
-            <p class="card-text">
-              Hewan yang dapat hidup di Darat
-            </p>
-            <a href="Darat.html"><button class="button text-white">Open</button></a>
-          </div>
-        </div>
-        <!-- darat -->
-
-        <!-- air -->
-        <div class="mid banner" class="parallax-window" data-parallax="scroll" data-image-src="https://images.unsplash.com/photo-1603366590778-a740f672ede3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
-          <div class="container col-lg-6 text-white mt-5">
-            <h5 class="card-title fw-bold"><span style="color: #2578fd;"> Air </span></h5>
-            <p class="card-text">
-              Hewan yang dapat hidup di Air
-            </p>
-            <a href="Darat.html" class="btn btn-primary">Open</a>
-          </div>
-        </div>
-        <!-- air -->
-
-        <!-- darat air -->
-        <div class="mid banner" class="parallax-window" data-parallax="scroll" data-image-src="daratdanair.jpg">
-          <div class="container col-lg-6 text-white mt-5">
-            <h5 class="card-title fw-bold"><span style="color: #ed6436;">Darat</span> & <span style="color: #2578fd;"> Air </span></h5>
-            <p class="card-text">
-              Hewan yang dapat hidup di Darat & Air (Dua alam)
-            </p>
-            <a href="Darat.html" class="btn btn-primary">Open</a>
-          </div>
-        </div>
-        <!-- darat air -->
+    <div class="container">
+    <div class="cards ">
+      <div class="card red" data-aos="zoom-in" data-aos-duration="1000" id="darat"
+      style="background-image: url(https://images.unsplash.com/photo-1563996554-52b4fcdf9120?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+      object-fit: scale-down;">
+        <h5 class="card-title fw-bold"><span style="color: #ed6436;">Darat</span></h5>
+        <p class="card-text">
+          Hewan yang dapat hidup di Darat
+        </p>
+        <a href="Darat.html" class="btn btn-primary">Open</a>
       </div>
-    </div>
+      <div class="card blue" data-aos="zoom-in" data-aos-duration="1000" id="air" 
+      style="background-image: url(https://images.unsplash.com/photo-1603366590778-a740f672ede3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);">
+        <h5 class="card-title fw-bold"><span style="color: #2578fd;"> Air </span></h5>
+        <p class="card-text">
+          Hewan yang dapat hidup di Air
+        </p>
+        <a href="Darat.html" class="btn btn-primary">Open</a>
+      </div>
+      <div class="card green" data-aos="zoom-in" data-aos-duration="1000" style="background-image: url(daratdanair.jpg);" id="darat-air">
+        <h5 class="card-title fw-bold"><span style="color: #ed6436;">Darat</span> &<span style="color: #2578fd;"> Air </span></h5>
+        <p class="card-text">
+          Hewan yang dapat hidup di Darat & Air (Dua alam)
+        </p>
+        <a href="Darat.html" class="btn btn-primary">Open</a>
+      </div>
+  </div>
+</div>
     <!-- akhir Habitat -->
 
     <!-- Awal Footer -->
