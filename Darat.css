@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  z-index: 1000;   
+  position: sticky;
+  margin-bottom: -75px;
+}
+
+.animal {
+  margin-left: 70px;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hbt {
+  padding-top: 65px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+#darat {
+  text-align: left;
+  padding-right: 65px;
+}
+
+#air {
+  text-align: right;
+  padding-right: 65px;
+}
+
+#bg-drt {
+  background-image: url(https://images.unsplash.com/photo-1666625505305-fd98a459108c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+}
+
+.jumbotron {
+  height: 100vh;
+  margin-bottom: -60px;
+}
+
+.navbar{
+  position: sticky;
+}
+
+.animal {
+  margin-left: 70px;
+}
+
+.clearfix {
+  padding-top: 70px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.navbar-scrolled {
+  background-color: rgb(22, 22, 22);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
