@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -57,4 +59,8 @@ nav {
 .navbar-scrolled {
   background-color: rgb(22, 22, 22);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+#border-hewan {
+  border: 1.2px solid black;;
 }
